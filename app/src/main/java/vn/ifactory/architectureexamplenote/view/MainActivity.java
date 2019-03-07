@@ -3,6 +3,7 @@ package vn.ifactory.architectureexamplenote.view;
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -99,6 +100,7 @@ public class MainActivity extends AppCompatActivity implements NoteAdapter.IOnCl
                 addNote();
             }
         });
+
     }
 
     private void addNote() {
